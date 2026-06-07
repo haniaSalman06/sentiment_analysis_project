@@ -43,16 +43,14 @@ python -c "import nltk; nltk.download('movie_reviews'); nltk.download('stopwords
 
 ## Results
 
-===================================
-   MODEL COMPARISON TABLE
-===================================
-              BoW  TF-IDF
-Metric                   
-Accuracy   0.8250  0.8300
-Precision  0.8227  0.8308
-Recall     0.8308  0.8308
-F1 Score   0.8267  0.8308
+| Metric    | BoW    | TF-IDF |
+|-----------|--------|--------|
+| Accuracy  | 0.8250 | 0.8300 |
+| Precision | 0.8227 | 0.8308 |
+| Recall    | 0.8308 | 0.8308 |
+| F1 Score  | 0.8267 | 0.8308 |
 
+> TF-IDF outperformed Bag of Words on Accuracy, Precision and F1-Score.
 
 > Fill in your actual results from the notebook output.
 
