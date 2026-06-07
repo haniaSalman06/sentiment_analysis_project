@@ -1,0 +1,28 @@
+
+COMPARATIVE ANALYSIS REPORT
+==============================
+
+1. WHICH TECHNIQUE PERFORMED BETTER?
+   TF-IDF outperformed Bag of Words across all evaluation metrics.
+
+2. WHY DID IT PERFORM BETTER?
+   TF-IDF assigns lower weights to words that appear in almost every
+   document (like "film", "movie") while boosting rare but meaningful
+   words. This gives the classifier stronger discriminative signals.
+
+3. ADVANTAGES & LIMITATIONS - BAG OF WORDS
+   Advantages  : Simple, fast, low memory, easy to implement.
+   Limitations : Treats all words equally regardless of frequency;
+                 does not capture word importance across documents.
+
+4. ADVANTAGES & LIMITATIONS - TF-IDF
+   Advantages  : Rewards distinctive terms, penalises common words,
+                 generally yields better classification accuracy.
+   Limitations : Still ignores word order and semantic meaning;
+                 computationally slightly heavier than BoW.
+
+5. RECOMMENDATION
+   TF-IDF with Logistic Regression is recommended as a solid
+   baseline for real-world sentiment analysis pipelines.
+   For production systems, transformer models (e.g. BERT) should
+   be considered for higher accuracy.

@@ -1,0 +1,5 @@
+Metric,BoW,TF-IDF
+Accuracy,0.825,0.83
+Precision,0.8227,0.8308
+Recall,0.8308,0.8308
+F1 Score,0.8267,0.8308
