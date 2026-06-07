@@ -43,12 +43,16 @@ python -c "import nltk; nltk.download('movie_reviews'); nltk.download('stopwords
 
 ## Results
 
-| Metric    | BoW    | TF-IDF |
-|-----------|--------|--------|
-| Accuracy  |        |        |
-| Precision |        |        |
-| Recall    |        |        |
-| F1 Score  |        |        |
+===================================
+   MODEL COMPARISON TABLE
+===================================
+              BoW  TF-IDF
+Metric                   
+Accuracy   0.8250  0.8300
+Precision  0.8227  0.8308
+Recall     0.8308  0.8308
+F1 Score   0.8267  0.8308
+
 
 > Fill in your actual results from the notebook output.
 
